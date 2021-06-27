@@ -1,0 +1,35 @@
+html, body, a, div, input, button {
+  font-family: 'Roboto Mono', monospace;
+}
+
+div {
+  font-size: larger;
+}
+
+.containerFlex {
+  display: flex;
+}
+
+.mnemonicChild {
+  padding-right: 1%;
+}
+
+.bin-child {
+  flex: 1;
+}
+
+.opcode {
+  color: crimson;
+}
+
+.Rm, .op {
+  color: darkorange;
+}
+
+.Rn, .LSL {
+  color: blueviolet;
+}
+
+.Rd, .Rt {
+  color: rgb(33, 22, 185);
+}
