@@ -147,11 +147,11 @@ function disassamlbe() {
     instuction.mnemonic = "BL";
     instuction.format = "B";
   }
-  else if (op_11 == 1112) { //550
+  else if (op_11 == 1360) { //550
     instuction.mnemonic = "ORR";
     instuction.format = "R";
   }
-  else if (op_11 == 1112) { //558
+  else if (op_11 == 1368) { //558
     instuction.mnemonic = "ADDS";
     instuction.format = "R";
   }
